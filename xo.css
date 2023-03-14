@@ -1,0 +1,34 @@
+
+.game  {
+    width: 255px;
+    text-align: center;
+    font-family: system-ui ;
+    color: white;
+    margin: auto;
+}
+
+.title{
+    background: rgb(185, 32, 196);
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+span{
+    color: #fa0;
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    background: rgb(185, 32, 196);
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+    border: 2px solid rebeccapurple;
+}
+.square:hover{
+    background-color: #000;
+}
+.in{
+    display:flex;
+}

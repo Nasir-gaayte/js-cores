@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/cruds.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class=>
+        <div>
+            <button class="btn btn-dark" type="submit"><a style="text-decoration: none; color:white" href="/index.html">back</a></button>
+        </div>
+        <div class="crud">
+            <div class="head">
+                <div  ><h1>CRUDS</h1></div>
+                <div><p>Product management system</p></div>
+            </div>  
+            <div id="ti" class="">
+                    <input  type="text"  id="title" placeholder="TITLE">
+                </div>
+            <div class="inputs">
+              
+                <div>
+                    <div id="ff" class="">
+                        <input  onkeyup="getTotal()" type="number" name="" id="price" placeholder="Pirce">
+                        <input  onkeyup="getTotal()" type="number" name="" id="tax" placeholder="Tax">
+                        <input  onkeyup="getTotal()" type="number" name="" id="ads" placeholder="ads">
+                        <input  onkeyup="getTotal()" type="number" name="" id="discount" placeholder="">
+                        <small id="total"></small>
+                    </div>
+                    <div id="bb" class="" >
+                        <input type="number" name="" id="count" placeholder="Count">
+                        <input type="text" name="" id="cat" placeholder="Category">
+                        <button id="create">Create</button>
+                        <input onkeyup="searchData(this.value)" type="text" name="" id="search" placeholder="Search">
+                    </div>
+                    <div id="search-btn">
+                        <button onclick="getSearchMood(this.id)" id="t-s-t">Search By Titel</button>
+                        <button onclick="getSearchMood(this.id)" id="t-s-c">Search By Category</button>
+                    </div>
+                    <div id="delete-btn">
+                        <button id="d-btn" class="hide" onclick="deleteAll()">Delete All</button>
+                        <div id="iner"></div>
+                        
+                    </div>
+                        
+                </div>
+                
+            </div>
+            <div class="outputs">
+                <table id="tab" class="" >
+                    
+                    <tr>
+                        <th >ID</th>
+                        <th >TITLE</th>
+                        <th >PRICE</th>
+                        <th ">PRICE</th>
+                        <th >ADS</th>
+                        <th >DISCOUNT</th>
+                        <th >TOTAL</th>
+                        <th >Category</th>   
+                        <th >UPDATE</th> 
+                        <th >Delete</th>
+                    </tr>
+                 
+                    <tbody id="tbody">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td> 
+                            <td></td>
+                            <td></td>  
+                            <td></td>
+                            <td><button id="update">Update</button></td>
+                            <td><button id="delete" >Delete</button></td> 
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="cruds.js"></script>
+</body>
+</html>

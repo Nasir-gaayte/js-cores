@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+    
+}
+body{
+    background-color: #222;
+    color: #fff;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+}
+input:focus{
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+#ti input{
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+
+
+.inputs{
+    width: 100%;
+    margin: auto;
+    
+}
+#ff{
+    display: inline-block;
+    background-color: #222;
+    margin: 2px 2px;
+}
+#ff input{
+     margin: 3px 0;
+    width: 100px;
+}
+.inputs input{
+    background-color: black;
+    color: white;
+   
+}
+
+#total{
+    background-color: rgb(164, 12, 12);
+    border-radius: 5px;
+    padding:  5px;
+}
+#total::before {
+    content:'TOTAL  :';
+    
+}
+
+#bb{
+    display: inline;
+}
+#bb input{
+    width: 100%;
+    margin: 3px 0;
+}
+
+#create{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    transition: 0.5s;
+}
+#create:hover{
+    background-color: rgb(163, 78, 243);
+    letter-spacing: 2px;
+}
+
+#search-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 3px 0; 
+}
+
+#t-s-t {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    transition: 0.5s;
+    width: 40%;
+}
+
+#t-s-t:hover{
+    background-color: rgb(163, 78, 243);
+    letter-spacing: 2px;
+}
+
+
+#t-s-c {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    transition: 0.5s;
+    width: 40%;
+}
+
+#t-s-c:hover{
+    background-color: rgb(163, 78, 243);
+    letter-spacing: 2px;
+}
+
+#delete-btn{
+    margin: 3px 0;
+}
+
+
+#d-btn {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+
+#d-btn:hover{
+    background-color: rgb(163, 78, 243);
+    letter-spacing: 2px;
+}
+
+#iner{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 8px 2px 20px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+}
+#iner span{
+    color: red;
+    font-size: x-large;
+    margin-left: 35px;
+    padding-right:5px ;
+}
+
+
+.outputs{
+    
+    width: 95%;
+    margin: auto;
+   
+}
+
+#tab {
+   color: #fff;
+   width: 100%;
+   text-align: center;
+   margin: 10px 0;
+}
+#tab thead tr th {
+    text-transform: uppercase;
+}
+th,td{
+    padding:  5px;
+}
+
+
+#update {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+#delete {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+
+.hide{
+    display: none;
+}

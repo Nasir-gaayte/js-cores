@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 120px;
+    height: 150px;
+    background: red;
+    color: white;
+}
+.container p {
+    padding: 5px;
+}
+
+.container p:hover{
+    background: #000;
+}
+
+.bu{
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#close {
+    position: absolute;
+    left: 125px;
+}
+
+.hide {
+    display: none;
+}
+
+
+.g  {
+    height: 10000;
+}
+
+
+
+.photos img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+}
+
+.photos img:hover {
+    cursor: pointer;
+    border: 2px solid rgb(10, 236, 25);
+}
+
+.main img{
+    width: 830px;
+    height: 830px;
+}
+
+.mune button{
+    width: 50px;
+    height: 25px;
+    margin: 2px;
+    background: burlywood;
+    border-radius: 15px;
+    border: 2px solid rgb(227, 106, 106);
+}
+#u {
+    text-decoration: none;
+}
+#bb{
+    font-weight: 1000;
+    text-align: center;
+    align-content: center;
+    width: 25px;
+    height: 20px;
+    background-color: coral;
+    border: 2.5px solid rgb(216, 142, 142);
+    color: white;
+    position:relative;
+    top: 1500px;
+    left: 15px;
+    z-index: 1;
+    
+    
+}
+#bb:hover{
+    background-color: rebeccapurple;
+    border: 2.5px solid red;
+    width: 40px;
+    height: 25px;
+    font-size: x-large;
+    border-radius: 15px;
+}
+
